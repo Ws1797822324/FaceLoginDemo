@@ -8,7 +8,6 @@
 
 #import "NavigationController.h"
 
-#import "YPTabbar.h"
 
 @interface NavigationController () <UINavigationControllerDelegate>
 

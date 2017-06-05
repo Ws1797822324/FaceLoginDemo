@@ -3,7 +3,6 @@
 
 target 'Product' do
   
-pod 'YPTabBarController', '~> 2.2.3'
 
 pod 'AFNetworking', '~> 3.1.0'
 
@@ -11,17 +10,6 @@ pod 'MBProgressHUD', '~> 1.0.0'
 
 pod 'SDWebImage', '~> 4.0.0'
 
-pod 'IQKeyboardManager', '~> 4.0.9'
-
-pod 'MJRefresh', '~> 3.1.12'
-
-pod 'MJExtension', '~> 3.0.13'
-
-pod 'KLCPopup', '~> 1.0'
-
-pod 'TZImagePickerController', '~> 1.7.9'
-
-pod 'JQFMDB', '~> 1.1.4'
 
 #---------------------------------------#
 #分页

@@ -15,15 +15,6 @@
 - (void)setHeader:(NSString *)url
 {
     
-    
-    UIImage *placeholder = [[UIImage imageNamed:@"circle2"] circleImage];
-    
-    [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:placeholder completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        
-        // 下载下来的image有值，就变圆，没有值就用占位图
-        self.image = image ? [image circleImage]: placeholder ;
-        
-        
-    }];
+
 }
 @end

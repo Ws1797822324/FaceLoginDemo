@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "RootTabBarController.h"
+#import "XXViewController.h"
 
 #import "NavigationController.h"
 
@@ -23,7 +23,7 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-    RootTabBarController *tabBarVc = [[RootTabBarController alloc] init];
+    XXViewController *tabBarVc = [[XXViewController alloc] init];
 
     NavigationController *NavTabBarVc = [[NavigationController alloc]initWithRootViewController:tabBarVc];
     
@@ -40,35 +40,6 @@
 -(void) settingIQKeyboard {
 
     
-    [IQKeyboardManager sharedManager].enable = true;
-    /**
-     点击屏幕是否收起键盘
-     */
-    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = true;
-    
-    /**
-     是否显示文本区域占位符
-     */
-    [IQKeyboardManager sharedManager].shouldShowTextFieldPlaceholder = true;
-    /**
-     控制键盘上的工具条文字颜色是否用户自定义
-     */
-    [IQKeyboardManager sharedManager].shouldToolbarUsesTextFieldTintColor = true;
-    /**
-     控制是否显示键盘上的工具条。
-     */
-    [IQKeyboardManager sharedManager].enableAutoToolbar = true;
-
-    [[IQKeyboardManager sharedManager] setToolbarDoneBarButtonItemText:@"完成"];
-    
-    [[IQKeyboardManager sharedManager] setShouldToolbarUsesTextFieldTintColor:false];
-    
-    [[IQKeyboardManager sharedManager] setToolbarTintColor:[UIColor redColor]];
-  
-    /**
-     输入框距离键盘的距离
-     */
-    [[IQKeyboardManager sharedManager] setKeyboardDistanceFromTextField:10.f];
     
 }
 

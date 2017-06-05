@@ -45,23 +45,6 @@
 
 #import <AFNetworking/AFNetworking.h>
 
-#import <IQKeyboardManager/IQKeyboardManager.h>
-
-#import <MJRefresh/MJRefresh.h>
-
-#import <MJExtension/MJExtension.h>
-
-#import <SDWebImage/UIImageView+WebCache.h>
-
-#import <KLCPopup/KLCPopup.h>
-
-#import "CFFlowButtonView.h"    
-
-#import "PTXDatePickerView.h"  
-
-#import "TZImagePickerController.h"
-
-#import <JQFMDB/JQFMDB.h>
 
 
 #endif /* Header_h */
